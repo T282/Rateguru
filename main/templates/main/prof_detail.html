@@ -1,0 +1,15 @@
+<h3>{{prof.prof_name}}</h3>
+<a href="{% url 'main:give_feedback' prof.id %}">Give Feedback</a>
+</br>
+<a href="{% url 'main:give_rating' prof.id %}">Give Rating</a>
+
+
+
+
+<h2> Dedication: {{prof.dedicated}}</h2>
+<h2> Clarity: {{prof.clarity}}</h2>
+<h2> Friendliness: {{ prof.friendly }}</h2>
+<h2> Helpfulness: {{prof.helpfullness}}</h2>
+</br>
+
+
